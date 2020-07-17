@@ -5,6 +5,7 @@
     <title> MyProject</title>
 </head>
 <body style="background:orange;">
+	<h5>ma page index</h5>
 	<div style="text-align:center;"> 
 		HELLO A TOUS je vais bien okay ? 
 </html>
