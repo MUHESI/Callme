@@ -1,0 +1,94 @@
+body{
+	background: url("../img/bc/bc2.jpg") fixed no-repeat;
+	/*background-image:url("");*/
+	/*background-image:opacity(0.5);*/
+}
+header{
+	background-color:black;
+	background-size: cover;
+	font-family: 'Dosis', sans-serif;
+	color:white;
+}
+.header_menu{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction:row;
+	align-items: center;
+	border-bottom:1px solid red;
+}
+.logo{
+	width: 20%;
+	text-align:center;
+}
+.logo img{
+	/*height: 300px;*/
+}
+.menu_list{
+	width:80%;
+	text-align:right;
+	padding-right: 50px;
+}
+.menu_list li{
+	display: inline-block;
+	text-transform:uppercase;
+	list-style: none;
+	letter-spacing: 3px;
+	padding-left: 50px;
+}
+.menu_list li a{
+	color:rgb(255, 255, 255, .8);	 
+	/*color:white;*/
+}
+.menu_list li a:hover{
+	color:orange;
+	/*color:rgb(255, 255, .8);	 */
+	/*color:white;*/
+}
+.header_content{
+	/*height: 200px;*/
+	margin-top:100px;
+	text-transform: uppercase;
+	/*transform: translate(+50%, -50%);*/
+	color:rgb(255, 255, 255, .8);
+	border-bottom:1px solid red;
+}
+.header_content h2{
+	margin-bottom: 50px;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing:0.3em;
+}
+
+.header_content h1{
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing:0.3em;
+	/*border-left:1px solid red;
+	border-right:1px solid red;*/
+}
+
+.header_content button{
+	height: auto;
+	padding: 8px 37px;
+	color:#fff;
+	margin-bottom: 10px;
+
+	font-size: 12px;
+	background-color: transparent;
+	background-color: black;
+	margin-right: 20px;
+}
+.header_content button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	letter-spacing:1px; 
+}
+.header_content button:hover{
+	background-color: orange;
+	border:1px solid white;
+}
+
+
