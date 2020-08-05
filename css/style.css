@@ -138,5 +138,6 @@ header{
 	color:white;    
     opacity:1;
 }
-
-
+#carouselExampleFade{
+	opacity: 0.8;
+}
