@@ -84,7 +84,7 @@ header{
 }
 .header_content{
 	/*height: 200px;*/
-	margin-top:100px;
+	margin-top:60px;
 	text-transform: uppercase;
 	/*transform: translate(+50%, -50%);*/
 	color:rgb(255, 255, 255, .8);
@@ -139,5 +139,5 @@ header{
     opacity:1;
 }
 #carouselExampleFade{
-	opacity: 0.8;
+	/*opacity: 0.8;*/
 }
