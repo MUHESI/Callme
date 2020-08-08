@@ -12,6 +12,7 @@ header{
 .header_menu{
 	width: 100%;
 	height: 100px;
+	text-align: right;
 	display: flex;
 	flex-direction:row;
 	align-items: center;
@@ -20,6 +21,7 @@ header{
 	opacity: 0.5;
 }
 .header_menu:hover {
+
 	opacity: 1;
 	transition:0.5s;
 	    /*visibility: hidden;*/
@@ -32,6 +34,7 @@ header{
 .logo{
 	width: 20%;
 	text-align:center;
+	padding-left: 8px 
 }
 .logo img{
 	/*height: 300px;*/
